@@ -1,5 +1,5 @@
 Prova Finale di reti Logiche
-<img src="media/image1.png" style="width:2.06885in;height:1.53805in"
+<img src="media/image1.png" style="width:1.76885in;height:1.33805in"
 alt="Immagine che contiene testo, Carattere, logo, Elementi grafici Descrizione generata automaticamente" />
 
 Alberto Leo
@@ -99,12 +99,11 @@ RISULTATI SPERIMENTALI:
 
 SYNTHESIS_REPORT:
 
-> <img src="media/image2.png" style="width:3.14583in;height:5.3125in" /><img src="media/image3.jpg" style="width:3.47917in;height:5.22917in" /><img src="media/image4.jpg" style="width:6.6875in;height:3.39583in" />
+> <img src="media/image2.png" style="width:3.14583in;height:5.3125in" />
 
 SYNTH_DESIGN:
 
-<img src="media/image5.png" style="width:4.9375in;height:5.16667in" /><img src="media/image6.jpg" style="width:5.77083in;height:2.5625in" />
-
+<img src="media/image5.png" style="width:4.9375in;height:5.16667in" />
 POWER-ANALYSIS:
 
 <img src="media/image7.jpg" style="width:6.83333in;height:4.64583in" />
@@ -121,16 +120,16 @@ quando o_done =1:
 
 <img src="media/image8.jpg" style="width:6.67847in;height:3.92847in" />
 
-Andando avanti nello scenario: possiamo vedere il caso in cui legge in
-0bf3 il dato ‘06’ e lo mette nell uscita z1,questa volta quando o_done
-altosi vedrà ancheil precedente valore in z0 così come specifica ,allego
-anche una foto in cui faccio vedere il contenuto di address(), così da
+Avanti nello scenario: Si vede il caso in dove legge in 0bf3 il 
+dato ‘06’ e lo mette nell uscita z1,questa volta quando o_done alto 
+si vedrà ancheil precedente valore in z0 così come specifica ,nell 
+imagine allegata di seguito si può vedere il contenuto di address(), così da
 poter verificare l uscita (01) e l indirizzo bf3(101111110011) come da
 scenario :
 
-<img src="media/image9.png" style="width:6.67847in;height:3.78542in" /><img src="media/image10.jpg" style="width:6.69028in;height:3.92847in" />
+<img src="media/image9.png" style="width:6.67847in;height:3.78542in" />
 
-Metto anche il successivo caso nello scenario dove leggo in 0003 il dato
+Allego anche il successivo caso nello scenario dove legge in 0003 il dato
 af (in esadecimale) che corrisponde a 175 in decimale ,così come
 specificato nel testbench :
 
@@ -141,13 +140,10 @@ specificato nel testbench :
 COMMENTI e CONCLUSIONI:
 
 Progettando in Xilinx Vivado un architettura ,simulabile sia pre che
-post-sintesi, che si ritiene abbia messo nella giusta uscita, i dati
-letti nell indirizzo ricevuto in input sempre da i_w, e rispettando i
-segnali e tempistiche secondo specifiche. Usare Vivado invece che altri
-programmi come HDL a volte può risultare più complesso soprattutto nel
-sintetizzare alcune funzioni, che di base non sono sintetizzabili come
-loop o funzioni definite col ‘dowto’ e ‘to’ (vedere commenti nel codice)
-ma si trova sempre una strada. Spero il progetto sia esaustivo e
-coerente
+post-sintesi, i dati letti nell indirizzo ricevuto in input sempre da i_w, 
+e rispettando i segnali e tempistiche secondo specifiche. 
+Imparare ad usare Vivado e il VHDL con i suoi costrutti concorrenti e sequenziali è stata una nuova 
+ed interessante esperienza nell Hardware description language(HDL). 
+Spero il progetto sia esaustivo e coerente
 
 Alberto Leo
