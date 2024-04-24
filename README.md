@@ -99,11 +99,11 @@ RISULTATI SPERIMENTALI:
 
 SYNTHESIS_REPORT:
 
-> <img src="media/image2.jpg" style="width:3.14583in;height:5.3125in" /><img src="media/image3.jpg" style="width:3.47917in;height:5.22917in" /><img src="media/image4.jpg" style="width:6.6875in;height:3.39583in" />
+> <img src="media/image2.png" style="width:3.14583in;height:5.3125in" /><img src="media/image3.jpg" style="width:3.47917in;height:5.22917in" /><img src="media/image4.jpg" style="width:6.6875in;height:3.39583in" />
 
 SYNTH_DESIGN:
 
-<img src="media/image5.jpg" style="width:4.9375in;height:5.16667in" /><img src="media/image6.jpg" style="width:5.77083in;height:2.5625in" />
+<img src="media/image5.png" style="width:4.9375in;height:5.16667in" /><img src="media/image6.jpg" style="width:5.77083in;height:2.5625in" />
 
 POWER-ANALYSIS:
 
@@ -128,7 +128,7 @@ anche una foto in cui faccio vedere il contenuto di address(), così da
 poter verificare l uscita (01) e l indirizzo bf3(101111110011) come da
 scenario :
 
-<img src="media/image9.jpg" style="width:6.67847in;height:3.78542in" /><img src="media/image10.jpg" style="width:6.69028in;height:3.92847in" />
+<img src="media/image9.png" style="width:6.67847in;height:3.78542in" /><img src="media/image10.jpg" style="width:6.69028in;height:3.92847in" />
 
 Metto anche il successivo caso nello scenario dove leggo in 0003 il dato
 af (in esadecimale) che corrisponde a 175 in decimale ,così come
